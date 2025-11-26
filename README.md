@@ -1,16 +1,76 @@
-# React + Vite
+Panto E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Panto is a simple and clean e-commerce website built with React. It allows users to browse products, explore different sections like Furniture and Shop, and manage items in the shopping cart.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Header & Navigation: Logo, menu links (Furniture, Shop, About Us, Contact) for easy navigation.
 
-## React Compiler
+Shopping Cart: Shows the number of items added dynamically using React state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Product Listing: Display products (can be expanded in future with real data/API).
 
-## Expanding the ESLint configuration
+Clean UI: Minimal and user-friendly interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+
+React (Functional Components & Hooks)
+
+JavaScript (ES6+)
+
+CSS (External and Inline Styling)
+
+Font Awesome Icons for cart and UI elements
+
+Installation
+
+Clone the repository:
+
+git clone <your-repo-url>
+
+Navigate to the project folder:
+
+cd panto
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+Usage
+
+Import components as needed into your main App:
+
+import Header from './components/Header';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      {/* Other sections like ProductListing, Footer */}
+    </div>
+  );
+}
+
+export default App;
+
+Screenshots
+
+Add screenshots here to showcase your website.
+
+Future Improvements
+
+Connect with a backend (Node.js/Express or Firebase) for real product data.
+
+Add a functional checkout page.
+
+Implement search and filter functionality.
+
+Add animations and better styling.
+
+License
+
+This project is open-source and free to use.
