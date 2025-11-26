@@ -1,76 +1,31 @@
-Panto E-Commerce Website
+# Panto E-Commerce Website
 
-Panto is a simple and clean e-commerce website built with React. It allows users to browse products, explore different sections like Furniture and Shop, and manage items in the shopping cart.
+Panto is a **simple and clean e-commerce website** built with **React**.  
+It allows users to browse products, explore sections like **Furniture** and **Shop**, and manage items in the shopping cart.
 
-Features
+---
 
-Responsive Header & Navigation: Logo, menu links (Furniture, Shop, About Us, Contact) for easy navigation.
+## 🚀 Features
 
-Shopping Cart: Shows the number of items added dynamically using React state.
+- **Responsive Header & Navigation**  
+  Logo and menu links (Furniture, Shop, About Us, Contact) for easy navigation.
 
-Product Listing: Display products (can be expanded in future with real data/API).
+- **Shopping Cart**  
+  Shows the number of items dynamically using React state.
 
-Clean UI: Minimal and user-friendly interface.
+- **Product Listing**  
+  Display products (expandable in the future with real data/API).
 
-Technologies Used
+- **Clean UI**  
+  Minimal and user-friendly interface.
 
-React (Functional Components & Hooks)
+---
 
-JavaScript (ES6+)
+## 🛠️ Technologies Used
 
-CSS (External and Inline Styling)
+- **React** (Functional Components & Hooks)  
+- **JavaScript (ES6+)**  
+- **CSS** (External and Inline Styling)  
+- **Font Awesome Icons** for cart and UI elements
 
-Font Awesome Icons for cart and UI elements
-
-Installation
-
-Clone the repository:
-
-git clone <your-repo-url>
-
-Navigate to the project folder:
-
-cd panto
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm start
-
-Usage
-
-Import components as needed into your main App:
-
-import Header from './components/Header';
-
-function App() {
-  return (
-    <div>
-      <Header />
-      {/* Other sections like ProductListing, Footer */}
-    </div>
-  );
-}
-
-export default App;
-
-Screenshots
-
-Add screenshots here to showcase your website.
-
-Future Improvements
-
-Connect with a backend (Node.js/Express or Firebase) for real product data.
-
-Add a functional checkout page.
-
-Implement search and filter functionality.
-
-Add animations and better styling.
-
-License
-
-This project is open-source and free to use.
+---
