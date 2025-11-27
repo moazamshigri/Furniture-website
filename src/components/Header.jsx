@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 const Header  =() => {
+    const [counter, setCounter] = useState(0);
+    
     
   return (
     <header>
@@ -22,10 +25,12 @@ const Header  =() => {
         <div className="cart">
             <i class="fa fa-shopping-bag" aria-hidden="true"></i>
             <div className="counter">
-                
+                {counter}
             </div>
 
+
         </div>
+      
     </header>
   )
 }
