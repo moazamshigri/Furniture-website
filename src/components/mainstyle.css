@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    color: white;
+    /* color: white; */
 
 }
 
@@ -11,6 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white;
 }
 
 header ul {
@@ -40,6 +41,7 @@ header .cart {
 
 .hero h1 {
     text-transform: capitalize;
+    color: white;
 }
 
 .hero {
