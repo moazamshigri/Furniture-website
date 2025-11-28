@@ -5,6 +5,7 @@ import MainPart from './components/main'
 import Main2 from './components/Main2'
 
 import Footer from './components/Footer'
+import Exp from './components/Exp'
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
 
     </main>
     <Main2/>
+   <Exp/>
    <Footer/>
 
     </>
