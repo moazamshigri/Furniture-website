@@ -1,64 +1,72 @@
-*{
-    margin: 0;padding: 0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Roboto;
     color: white;
 
 }
 
-header{
- height: 109px;
+header {
+    height: 109px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-header ul{
-       display: flex;
+header ul {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     width: 27%;
 }
+
 header ul li {
     list-style-type: none;
 }
+
 header ul li a {
     text-decoration: none;
     color: white;
 }
+
 header ul li a:hover {
     text-decoration: underline;
-color: rgb(194, 194, 194);
+    color: rgb(194, 194, 194);
 }
 
-header .cart{
+header .cart {
     cursor: pointer;
 }
 
-.hero h1{
+.hero h1 {
     text-transform: capitalize;
 }
-.hero{
-        height: 60vh;
+
+.hero {
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
-.hero h1{
-        font-size: 52px;
+
+.hero h1 {
+    font-size: 52px;
 }
-.hero p{
+
+.hero p {
     text-align: center;
     color: rgb(236, 236, 236);
     font-weight: bold;
 }
-.hero{
+
+.hero {
     margin-top: 42px;
 }
 
-.hero .tt{
+.hero .tt {
     height: 39px;
-        border: 2px solid white;
+    border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -66,29 +74,34 @@ header .cart{
     width: 360px;
     padding-left: 20px;
     border-radius: 14px;
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .hero .tt:focus-within {
-  border-color: orange;
+    border-color: orange;
 }
 
-.hero input{
-        border: none;
+.hero input {
+    border: none;
     background: transparent;
     color: white;
     height: 100%;
-        width: 88%;
+    width: 88%;
     outline: none;
 }
+
 .hero input::placeholder {
-    color: white;      /* your placeholder color */
-    opacity: 1;        /* make sure it’s fully visible */
+    color: white;
+    /* your placeholder color */
+    opacity: 1;
+    /* make sure it’s fully visible */
     /* font-weight: bold; optional */
 }
-.hero button{
-       height: 86%;
+
+.hero button {
+    height: 86%;
     background: transparent;
     border: 0px solid;
     cursor: pointer;
@@ -99,15 +112,15 @@ header .cart{
 
 }
 
-.hero button:hover{
+.hero button:hover {
     color: wheat;
     background-color: rgb(207, 134, 0);
 }
 
-.cart .counter{
+.cart .counter {
     border-radius: 12px;
-    height: 13px;
-    width: 12px;
+   height: 18px;
+    width: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,3 +136,9 @@ header .cart{
 .cart {
     display: flex;
 }
+
+
+.main2 h1, p, h3{
+    color: black;
+}
+

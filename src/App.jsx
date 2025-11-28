@@ -6,7 +6,7 @@ import Main2 from './components/Main2'
 const App = () => {
   return (
     <>
-    <main>
+    <main className=''>
     <MainPart/>
 
     </main>
