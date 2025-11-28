@@ -2,6 +2,7 @@ import React from 'react'
 import "./App.css"
 
 import MainPart from './components/main'
+import Main2 from './components/Main2'
 const App = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const App = () => {
     <MainPart/>
 
     </main>
+    <Main2/>
     </>
   )
 }

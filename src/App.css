@@ -1,8 +1,18 @@
-main{
-    background-image: url("src/assets/Hero.png");
-      background-size: cover; 
-       background-position:center; 
-       background-repeat: no-repeat; 
+main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
 
-    min-height: 100vh;
+main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("src/assets/Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); /* adjust */
+  transform: scale(1.1); /* avoids blurry edges */
+  z-index: -1;
 }
