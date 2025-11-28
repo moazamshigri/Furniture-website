@@ -61,3 +61,73 @@ h1{
 .exp a:hover{
     text-decoration: underline;
 }
+.exp2 a{
+    color: orange;
+    text-decoration: none;
+
+}
+.exp2 a:hover{
+    text-decoration: underline;
+}
+
+.exp2{
+        height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.ss{
+        width: 35%;
+    padding-left: 50px;
+   
+}
+.ss h1{
+     line-height: 40px;
+}
+
+.pehla{
+   display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: space-between;
+    width: 62%;
+    position: relative;
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: space-between;
+    width: 62%;
+    position: relative;
+    padding-left: 188px;
+}
+.aik{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.p-one{
+       height: 175px;
+}
+.p-two{
+       height: 305px;
+}
+.do{
+    position: relative;
+}
+
+.do img{
+        width: 374px;
+    border-radius: 18px;
+    box-shadow: -7px 35px 68px -18px;
+}
+.shade{
+        background: #ededed;
+    width: 342px;
+    height: 74%;
+    position: absolute;
+    border-radius: 13px;
+    z-index: -1;
+    top: 56px;
+    left: -39px;
+}
