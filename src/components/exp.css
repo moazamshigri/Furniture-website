@@ -88,13 +88,13 @@ h1{
    display: flex;
     height: 95%;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 62%;
     position: relative;
     display: flex;
     height: 95%;
     align-items: center;
-    justify-content: space-between;
+        justify-content: space-around;
     width: 62%;
     position: relative;
     padding-left: 188px;

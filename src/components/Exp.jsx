@@ -23,7 +23,7 @@ const Exp = () => {
          <div className="secondExp ss">
         <h4 className='col'>Experiences</h4>
         <h1>Very Serious<br />Material for Making <br />Furniture</h1>
-        <p>You don’t have to worry about the result because all of these <br /> interiors are made by people who are professionals in their fields <br /> with an elegant and lucurious style and with premium quality <br />materials</p>
+        <p>You don’t have to worry about the result because all of these  interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
         <a href="#">More Info &rarr;</a>
 
          
